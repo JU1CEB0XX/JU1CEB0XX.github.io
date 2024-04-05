@@ -1,0 +1,14 @@
+div {
+    border: 10px outset cornflowerblue;
+    margin: 24px 0px;
+    padding: 24px 36px;
+    background-color: azure;
+}
+
+p {
+   /*border: 20px dotted blue; */
+    margin: 60px;
+    padding: 48px 60px;
+    background-color: pink;
+    border-radius: 48px;
+}
