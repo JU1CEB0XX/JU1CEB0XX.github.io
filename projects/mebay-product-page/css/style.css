@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#mebay-page-layout {
+    display: grid;
+    grid-template-columns: 1fr 450px 250px 150px 1fr;
+    grid-template-areas: 
+    ". heading heading heading."
+    ". img details sidebar ." ;
+    margin: 36px 0px;
+}
+
+#mebay-page-layout h1 {
+    grid-area: heading;
+    text-align: center;
+}
+
+#container-img-1 {
+    grid-area: img;
+    border-radius: 12px;
+    background-color: rgb(235, 235, 235);
+    padding: 20px 20px;
+    text-align: center;
+}
+
+#container-details-2 {
+    grid-area: details;
+    padding: 0px 24px;
+    
+}
+
+#container-details-2 div {
+    padding: 5px 0px;
+}
+
+#container-details-2 div a {
+    text-decoration: none;
+    background-color: rgb(52, 52, 196);
+    color: white;
+    padding: 12px;
+    display: block;
+    border-radius: 30px;
+    text-align: center;
+}
+
+#container-details-2 div a:hover {
+    background-color: rgb(118, 118, 232);
+}
+
+#container-sidebar-3 {
+    grid-area: sidebar;
+    padding: 24px 0px;
+    margin: 0px;
+    border: 1px solid black;
+    border-radius: 12px;
+    text-align: center;
+    display: block;
+}
