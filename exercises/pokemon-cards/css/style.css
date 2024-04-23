@@ -7,3 +7,51 @@
     Just be aware that you may break some
     of the setup.css styling if you do so.
 */
+
+.card-style-3 {
+    width: 350px ;
+    display: flex;
+    flex-direction: column;
+    margin: 25px auto;
+    justify-content: center;
+}
+
+#pokemon-card-1 {
+    background: radial-gradient(
+        at top left,
+        lightgreen,
+        green
+    );
+    border: 15px solid gold;
+    border-radius: 15px;
+}
+
+#pokemon-card-2 {
+    background: radial-gradient(
+        at top left,
+        lightgreen,
+        green
+    );
+    border: 15px solid gold;
+    border-radius: 15px;
+}
+
+#pokemon-card-3 {
+    background: radial-gradient(
+        at top left,
+        orange,
+        red
+    );
+    border: 15px solid gold;
+    border-radius: 15px;
+}
+
+#pokemon-card-4 {
+    background: radial-gradient(
+        at top left,
+        lightblue,
+        teal
+    );
+    border: 15px solid gold;
+    border-radius: 15px;
+}
