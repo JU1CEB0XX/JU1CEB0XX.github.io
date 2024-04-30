@@ -6,3 +6,131 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
+#navbar-n1 {
+    background: linear-gradient(
+        to bottom, 
+        rgb(59, 93, 59), 
+        #67ad67
+    );
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar-n1 h1 {
+    font-family: cursive;
+    padding: 5px;
+    border: 3px double;
+    border-radius: 5px;
+    background-color: rgb(45, 71, 48);
+}
+
+#navbar-n1 a {
+    text-decoration: none;
+    color: rgb(249, 249, 249);
+    padding: 24px;
+
+}
+
+#navbar-n1 #logo {
+    margin-right: auto;
+}
+
+#navbar-n2 {
+    background: linear-gradient(
+        to bottom, 
+        rgb(252, 165, 225), 
+        #ffd1e5
+    );
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar-n2 h1 {
+    font-family: Georgia;
+    padding: 5px;
+    border: 3px dotted;
+}
+
+#navbar-n2 a {
+    text-decoration: none;
+    color: rgb(111, 35, 62);
+    padding: 24px;
+
+}
+
+#navbar-n1 #logo {
+    margin-right: auto;
+}
+
+#navbar-n2 .cta-button {
+    background-color: rgb(118, 14, 83);
+    color: rgb(254, 232, 248);
+    border-radius: 5px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+
+}
+
+#navbar-t3 {
+    text-align: center;
+    background-color: purple;
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+#navbar-m3 {
+    background: linear-gradient(
+        to bottom, 
+        rgb(0, 0, 0), 
+        #63275e
+    );
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar-m3 h1 {
+    font-family: 'Franklin Gothic Medium';
+    padding: 5px;
+    border: 3px dashed purple;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+}
+
+#navbar-m3 a {
+    text-decoration: none;
+    color: rgb(255, 209, 242);
+    padding: 24px;
+
+}
+
+#navbar-m3 #logo {
+    margin-right: auto;
+}
+
+#navbar-b3 {
+    background: purple;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#navbar-b3 a {
+    text-decoration: none;
+    color: rgb(255, 209, 242);
+}
+
+#header {
+    position: sticky;
+    top: 0px;
+}
