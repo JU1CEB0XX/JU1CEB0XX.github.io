@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: chalkduster;
+}
+
+#navbar {
+    background: linear-gradient(
+        to bottom,
+        #476344,
+        #1D8441,
+        #AAD046
+    );
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#logo {
+    font-family: lobster;
+    background-color: white;
+    border: 10px double #476344;
+    border-radius: 100px;
+}
+
+#logo img {
+    width: 24vw;
+}
+
+#navbar a {
+    display: inline-block;
+    padding: 24px;
+    text-decoration: none;
+    color: white;
+    background-color: #E5AA49;
+}
+
+#navbar #logo {
+    margin-right: auto;
+    font-size: 36px;
+    font-weight: bold;
+    padding-top: 13px;
+    padding-bottom: 12px;
+
+}
+
+#navbar a:hover {
+    border: 5px double white;
+    background-color: #B97A2D;
+}
+
+#hero {
+    background-image: url("../images/attempt2.webp");
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.hero-content p{
+    color: white;
+    background-color: #E5AA49;
+    padding: 24px;
+    text-align: center;
+    border: 5px double white;
+    border-radius: 12px;
+}
+
+.hero-content a {
+    display: block;
+    margin: 0pc;
+    text-align: center;
+    background-color: #E5AA49;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border: 5px double white;
+    border-radius: 12px;
+}
+
+.hero-content a:hover {
+    background-color: #B97A2D;
+}
+
+
+@media screen and (max-width: 480px) {
+    #navbar {
+        flex-direction: column;
+    }
+
+    #navbar #logo {
+        margin-right: 0px;
+    }
+
+    .dropdown-container:hover .dropdown-menu {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
