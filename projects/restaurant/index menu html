@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Restaurant</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="navbar">
+            <div id="logo">
+                    <img
+                        src="images/tree-house-tales.png"
+                        alt="tree-house-tales"
+                    >
+            </div>
+            <a href="#">Our Menu</a>
+            <a href="#">Locations</a>
+            <a href="#">About Us</a>
+            <a href="index.html">Home</a>
+        </div>
+            <div class="main-dish">
+                <h2>Chicken Forest Wrap</h2>
+                <img
+                    src="images/chicken wrap.jpeg"
+                    alt="chicken wrap"
+                >
+                <p>
+                    A crunchy chicken and lettuce wrap.
+                </p>
+                <h4>$7.57</h4>
+            </div>
+            <div id="centered-column">
+                <div class="card">
+                    <h2>Treetop Burger<h2>
+                        <h4>$8.45</h4>
+                </div>
+                <div class="card">
+                    <h2>Chicken Sandwich<h2>
+                        <h4>$5.35</h4>
+                </div>
+                <div class="card">
+                    <h2>Garden Sandwich<h2>
+                        <h4>$8.45</h4>
+                </div>
+                <div class="card">
+                    <h2>Garden Salad<h2>
+                        <h4>$4.45</h4>
+                </div>
+                <div class="card">
+                    <h2>Mac & Cheese<h2>
+                        <h4>$3.35</h4>
+                </div>
+                <div class="card">
+                    <h2>Pizza<h2>
+                        <h4>$3.35</h4>
+                </div>
+                <div class="card">
+                    <h2>Chicken Nuggets<h2>
+                        <h4>$3.35</h4>
+                </div>
+                <div class="card">
+                    <h2>Cherry Cheese Cake<h2>
+                        <h4>$8.45</h4>
+                </div>
+                <div class="card">
+                    <h2>Key Lime Pie<h2>
+                        <h4>$9.45</h4>
+                </div>
+            </div>
+        <div class="footer">
+            <h3>©</h3>
+        </div>
+    </body>
+</html>

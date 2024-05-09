@@ -21,12 +21,27 @@ body {
     margin: 10px;
 }
 
+.footer {
+    background: linear-gradient(
+        to bottom,
+        #476344,
+        #1D8441,
+        #AAD046
+    );
+    display: flex;
+    align-items: center ba;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+}
+
 #logo {
     font-family: lobster;
     background-color: white;
     border: 10px double #476344;
     border-radius: 100px;
 }
+
 
 #logo img {
     width: 24vw;
@@ -56,7 +71,7 @@ body {
 
 #hero {
     background-image: url("../images/attempt2.webp");
-    height: 50vh;
+    height: 90vh;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -89,6 +104,55 @@ body {
     background-color: #B97A2D;
 }
 
+.main-dish {
+    width: 55vw;
+    background-color: #E5AA49;
+    border: 5px double white;
+    padding: 10px;
+    padding-top: 0pc;
+    padding-bottom: 0px;
+    align-items: center;
+    margin: auto;
+    box-shadow: -4px 4px 12px #645442;
+}
+
+.main-dish img {
+    width: 100%;
+}
+
+.main-dish p {
+    text-align: center;
+}
+
+.main-dish h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.main-dish h4 {
+    text-align: center;
+    font-weight: bold;
+}
+
+#centered-column {
+    width: 90vw;
+    max-width: 800vw;
+    margin: 48px auto;
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 36px;
+    justify-content: center;
+}
+
+.card {
+    width: 30vw;
+    border: 10px double white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: -4px 4px 12px #476344;
+    background: #AAD046;
+    text-align: center;
+}
 
 @media screen and (max-width: 480px) {
     #navbar {
