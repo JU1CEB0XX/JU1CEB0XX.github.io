@@ -91,6 +91,11 @@ body {
     color: black;
 }
 
+#button-container a:hover {
+    padding: 10px;
+    color: #376370;
+}
+
 #question {
     text-align: center;
     color: aliceblue;
