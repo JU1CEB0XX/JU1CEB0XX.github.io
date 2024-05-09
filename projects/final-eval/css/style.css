@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: impact;
+}
+
+#poster {
+    background: linear-gradient(
+        to bottom,
+        #376370,
+        #5f3468
+    );
+    padding: 24px;
+    margin: 24px;
+}
+
+#heading {
+    text-align: center;
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+#heading h3 {
+    text-decoration: underline;
+}
+
+#container {
+    width: 95vw;
+    max-width: 100vw;
+    margin: 48px auto 48px;
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 36px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 30vw;
+    border: 10px ridge;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: -4px 4px 12px black;
+    background: aliceblue;
+    text-align: center;
+}
+
+.card img {
+    width: 25vw;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.card h2 {
+    text-shadow: -4px 4px 12px rgba(0, 0, 0, 0.438);
+}
+
+#vs {
+    color: aliceblue;
+    text-shadow: -4px 4px 12px black;
+}
+
+#bottom-text {
+    text-align: center;
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 10px;
+}
+
+#button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    display: inline-block;
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 10px ridge;
+    box-shadow: -4px 4px 12px black;
+}
+
+.buttons a{
+    text-decoration: none;
+    color: black;
+}
+
+#question {
+    text-align: center;
+    color: aliceblue;
+}
+
+
+
+@media screen and (min-width: 480px) {
+    #navbar {
+        flex-direction: column;
+    }
+
+    #navbar #logo {
+        margin-right: 0px;
+    }
+
+    .dropdown-container:hover .dropdown-menu {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
